@@ -19,8 +19,21 @@ function AppLayout() {
   }, []);
 
   const handleSelectCourse = (course) => {
+    const isExists = selectedCourses.some((c) => c.id === course.id);
+    if (isExists) {
+      return alert("Course already exists!");
+    }
+
+    const totalCredit = selectedCourses.reduce(
+      (acc, course) => acc + course.credit,
+      0
+    );
+
+    if (totalCredit + course.credit > 20) {
+      return alert("You have no credit");
+    }
+
     setSelectedCourses((preCourses) => [...preCourses, course]);
-    console.log(course);
   };
 
   return (
