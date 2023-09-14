@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Cards from "./Cards";
 import Header from "./Header";
 import Cart from "./Cart";
+import toast from "react-hot-toast";
 
 function AppLayout() {
   const [courses, setCourses] = useState([]);
@@ -21,7 +22,7 @@ function AppLayout() {
   const handleSelectCourse = (course) => {
     const isExists = selectedCourses.some((c) => c.id === course.id);
     if (isExists) {
-      return alert("Course already exists!");
+      return toast.error(`Course ${course.id} already exists`);
     }
 
     const totalCredit = selectedCourses.reduce(
@@ -30,7 +31,7 @@ function AppLayout() {
     );
 
     if (totalCredit + course.credit > 20) {
-      return alert("You have no credit");
+      return toast.error("You don't have enough credit");
     }
 
     setSelectedCourses((preCourses) => [...preCourses, course]);
