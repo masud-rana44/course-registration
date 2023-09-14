@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import Cards from "./Cards";
 import Header from "./Header";
+import Cart from "./Cart";
 
 function AppLayout() {
   const [courses, setCourses] = useState([]);
@@ -22,7 +23,7 @@ function AppLayout() {
         <Header />
         <main className="grid grid-cols-4 space-x-6">
           <Cards courses={courses} />
-          <div>Summary</div>
+          <Cart />
         </main>
       </div>
     </div>
