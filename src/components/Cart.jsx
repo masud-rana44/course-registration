@@ -16,7 +16,7 @@ function Cart({ selectedCourses }) {
   );
 
   return (
-    <div>
+    <div className="mx-auto w-[312px]">
       <div className="bg-white p-6 rounded-xl">
         <h3 className="text-[#2F80ED] text-lg leading-[30px] font-bold">
           Credit Hour Remaining {20 - totalCredit} hr

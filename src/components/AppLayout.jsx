@@ -22,7 +22,7 @@ function AppLayout() {
   const handleSelectCourse = (course) => {
     const isExists = selectedCourses.some((c) => c.id === course.id);
     if (isExists) {
-      return toast.error(`Course ${course.id} already exists`);
+      return toast.error(`${course.title} already in cart.`);
     }
 
     const totalCredit = selectedCourses.reduce(
@@ -31,17 +31,17 @@ function AppLayout() {
     );
 
     if (totalCredit + course.credit > 20) {
-      return toast.error("You don't have enough credit");
+      return toast.error("You don't have enough credit.");
     }
 
     setSelectedCourses((preCourses) => [...preCourses, course]);
   };
 
   return (
-    <div className="bg-[#F3F3F3] min-h-screen w-full pb-20">
+    <div className="bg-[#F3F3F3] min-h-screen w-full pb-20 ">
       <div className="container mx-auto">
         <Header />
-        <main className="grid grid-cols-4 space-x-6">
+        <main className="flex flex-col sm:flex-row gap-6">
           <Cards courses={courses} handleSelectCourse={handleSelectCourse} />
           <Cart selectedCourses={selectedCourses} />
         </main>

@@ -13,7 +13,11 @@ function Card({ course, handleSelectCourse }) {
   return (
     <div className="p-4 bg-white rounded-xl flex flex-col">
       <figure>
-        <img className="rounded-lg" src={imageUrl} alt={`Image of ${title}`} />
+        <img
+          className="rounded-lg h-[150px]"
+          src={imageUrl}
+          alt={`Image of ${title}`}
+        />
       </figure>
       <div className="mt-4 flex flex-col flex-1">
         <h3 className="text-[#1C1B1B] text-lg font-bold mb-1">{title}</h3>
