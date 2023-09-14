@@ -4,9 +4,10 @@ import { doller, book } from "../assets";
 
 Card.propTypes = {
   course: PropTypes.object,
+  handleSelectCourse: PropTypes.func,
 };
 
-function Card({ course }) {
+function Card({ course, handleSelectCourse }) {
   const { imageUrl, title, description, price, credit } = course;
 
   return (
@@ -29,6 +30,7 @@ function Card({ course }) {
         </div>
         <button
           type="button"
+          onClick={() => handleSelectCourse(course)}
           className="w-full bg-[#2F80ED] hover:bg-[#2F80ED]/90 transition rounded-lg py-2 text-white"
         >
           Select
