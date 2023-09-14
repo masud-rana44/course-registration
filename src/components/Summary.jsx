@@ -1,5 +1,5 @@
 function Summary() {
-  return <div>Summary</div>;
+  return <div className="bg-purple-600">Summary</div>;
 }
 
 export default Summary;
