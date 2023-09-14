@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+
 import Cards from "./Cards";
 import Header from "./Header";
 
@@ -16,7 +17,7 @@ function AppLayout() {
   }, []);
 
   return (
-    <div className="bg-[#F3F3F3] min-h-screen w-full ">
+    <div className="bg-[#F3F3F3] min-h-screen w-full pb-20">
       <div className="container mx-auto">
         <Header />
         <main className="grid grid-cols-4 space-x-6">
