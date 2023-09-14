@@ -1,0 +1,107 @@
+[
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpg",
+    "title": "Introduction to C Programming",
+    "description": "Learn the fundamentals of C programming language and build a strong foundation for software development.",
+    "price": 15000,
+    "credit": 1
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpg",
+    "title": "Introduction to Algorithms",
+    "description": "Explore the world of algorithms and data structures, essential for solving complex computational problems.",
+    "price": 25000,
+    "credit": 2
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpg",
+    "title": "Introduction to C++ for DSA",
+    "description": "Master C++ programming while focusing on its applications in Data Structures and Algorithms.",
+    "price": 10000,
+    "credit": 10
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpg",
+    "title": "Advanced Python Programming",
+    "description": "Take your Python skills to the next level with advanced topics such as data analysis and web development.",
+    "price": 18000,
+    "credit": 3
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpg",
+    "title": "Web Development Fundamentals",
+    "description": "Discover the essentials of web development, including HTML, CSS, and JavaScript.",
+    "price": 22000,
+    "credit": 4
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpg",
+    "title": "Machine Learning Basics",
+    "description": "Get started with machine learning, covering topics like regression, classification, and neural networks.",
+    "price": 28000,
+    "credit": 5
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpg",
+    "title": "Data Structures in Java",
+    "description": "Learn how to implement common data structures in Java, essential for efficient programming.",
+    "price": 19000,
+    "credit": 2
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpg",
+    "title": "Introduction to React.js",
+    "description": "Explore the fundamentals of React.js and build dynamic user interfaces for web applications.",
+    "price": 15000,
+    "credit": 2
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpg",
+    "title": "Artificial Intelligence Fundamentals",
+    "description": "Dive into the world of AI, covering topics like natural language processing and computer vision.",
+    "price": 30000,
+    "credit": 6
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpgg",
+    "title": "Database Design and SQL",
+    "description": "Master the art of designing and managing databases using SQL and relational database systems.",
+    "price": 21000,
+    "credit": 3
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpgg",
+    "title": "Front-End Web Development",
+    "description": "Become a front-end web developer by learning HTML, CSS, JavaScript, and modern web technologies.",
+    "price": 26000,
+    "credit": 4
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpgg",
+    "title": "Advanced Data Analysis with Python",
+    "description": "Enhance your data analysis skills in Python, covering libraries like Pandas and NumPy.",
+    "price": 22000,
+    "credit": 3
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpgg",
+    "title": "Blockchain Technology",
+    "description": "Explore the fundamentals of blockchain technology and its applications in various industries.",
+    "price": 28000,
+    "credit": 5
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpgg",
+    "title": "Mobile App Development with React Native",
+    "description": "Learn how to build cross-platform mobile apps using React Native and JavaScript.",
+    "price": 24000,
+    "credit": 4
+  },
+  {
+    "imageUrl": "https://as2.ftcdn.net/v2/jpg/01/76/87/13/1000_F_176871393_AsqjrtOgZz8eQ4OqM4P1hmFHN6pRtfxu.jpgg",
+    "title": "Cybersecurity Fundamentals",
+    "description": "Understand the basics of cybersecurity, including threat detection and prevention techniques.",
+    "price": 20000,
+    "credit": 3
+  }
+]
