@@ -1,11 +1,52 @@
 [
   {
+    "id": "7890",
+    "imageUrl": "https://i.ibb.co/jhkkKTN/2831952-3a00-5.jpg",
+    "title": "Data Analysis with Python",
+    "description": "Enhance your data analysis skills in Python, covering libraries like Pandas and NumPy.",
+    "price": 22000,
+    "credit": 3
+  },
+
+  {
     "id": "2345",
     "imageUrl": "https://i.ibb.co/FgK3Tjb/2034156-1187.jpg",
     "title": "Blockchain Technology",
     "description": "Explore the fundamentals of blockchain technology and its applications in various industries.",
     "price": 28000,
     "credit": 5
+  },
+  {
+    "id": "5678",
+    "imageUrl": "https://i.ibb.co/YWx8tCw/Rectangle-2-3.png",
+    "title": "Introduction to Algorithms",
+    "description": "Explore the world of algorithms and data structures, essential for solving complex computational problems.",
+    "price": 25000,
+    "credit": 2
+  },
+  {
+    "id": "3626",
+    "imageUrl": "https://i.ibb.co/yqvT6vJ/705264-caa9-13.jpg",
+    "title": "Front-End Web Development",
+    "description": "Become a front-end web developer by learning HTML, CSS, JavaScript, and modern web technologies.",
+    "price": 26000,
+    "credit": 4
+  },
+  {
+    "id": "5684",
+    "imageUrl": "https://i.ibb.co/98y07w3/1219332-bdd7.jpg",
+    "title": "AI Fundamentals",
+    "description": "Dive into the world of AI, covering topics like natural language processing and computer vision.",
+    "price": 30000,
+    "credit": 6
+  },
+  {
+    "id": "1474",
+    "imageUrl": "https://i.ibb.co/B6jRZsK/3654420-6ef3-8.jpg",
+    "title": "Cybersecurity Fundamentals",
+    "description": "Understand the basics of cybersecurity, including threat detection and prevention techniques.",
+    "price": 20000,
+    "credit": 3
   },
   {
     "id": "1234",
@@ -55,14 +96,7 @@
     "price": 15000,
     "credit": 2
   },
-  {
-    "id": "5684",
-    "imageUrl": "https://i.ibb.co/98y07w3/1219332-bdd7.jpg",
-    "title": "AI Fundamentals",
-    "description": "Dive into the world of AI, covering topics like natural language processing and computer vision.",
-    "price": 30000,
-    "credit": 6
-  },
+
   {
     "id": "9745",
     "imageUrl": "https://i.ibb.co/MSrFKZK/Rectangle-2-1.png",
@@ -70,31 +104,6 @@
     "description": "Master the art of designing and managing databases using SQL and relational database systems.",
     "price": 21000,
     "credit": 3
-  },
-  {
-    "id": "3626",
-    "imageUrl": "https://i.ibb.co/yqvT6vJ/705264-caa9-13.jpg",
-    "title": "Front-End Web Development",
-    "description": "Become a front-end web developer by learning HTML, CSS, JavaScript, and modern web technologies.",
-    "price": 26000,
-    "credit": 4
-  },
-  {
-    "id": "7890",
-    "imageUrl": "https://i.ibb.co/jhkkKTN/2831952-3a00-5.jpg",
-    "title": "Data Analysis with Python",
-    "description": "Enhance your data analysis skills in Python, covering libraries like Pandas and NumPy.",
-    "price": 22000,
-    "credit": 3
-  },
-
-  {
-    "id": "5678",
-    "imageUrl": "https://i.ibb.co/YWx8tCw/Rectangle-2-3.png",
-    "title": "Introduction to Algorithms",
-    "description": "Explore the world of algorithms and data structures, essential for solving complex computational problems.",
-    "price": 25000,
-    "credit": 2
   },
   {
     "id": "9012",
@@ -112,13 +121,5 @@
     "description": "Learn how to build cross-platform mobile apps using React Native and JavaScript.",
     "price": 24000,
     "credit": 4
-  },
-  {
-    "id": "1474",
-    "imageUrl": "https://i.ibb.co/B6jRZsK/3654420-6ef3-8.jpg",
-    "title": "Cybersecurity Fundamentals",
-    "description": "Understand the basics of cybersecurity, including threat detection and prevention techniques.",
-    "price": 20000,
-    "credit": 3
   }
 ]
