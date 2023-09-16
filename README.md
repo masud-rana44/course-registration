@@ -5,13 +5,15 @@ Course Registration</h1>
 
 ## 📝 Features
 
-1. **Dynamic Course Rendering**: Every course is rendered dynamically. Whenever we need to add a new course, we just need to add that course data in our json.
+1. **Course Selection**: User can select any course whatever he/she want. It immediately reflects in the cart ui.
 
-2. **Real Time Cart Updates**: The cart immediately reflects when we select a course. It displays available credit, the titles of selected courses, and the total price - all in real time.
+2. **Dynamic Course Rendering**: Every course is rendered dynamically. Whenever we need to add a new course, we just need to add that course data in our json.
 
-3. **User-Friendly React Toasts**: Whenever there is any error occur the application communicate with a friendly toast message. It enhance the user experience.
+3. **Real Time Cart Updates**: The cart immediately reflects when we select a course. It displays available credit, the titles of selected courses, and the total price - all in real time.
 
-4. **Responsive Layout**: Entire application is responsive. It fit's all the devices according to the screen size of the user.
+4. **User-Friendly React Toasts**: Whenever there is any error occur the application communicate with a friendly toast message. It enhance the user experience.
+
+5. **Responsive Layout**: Entire application is responsive. It fit's all the devices according to the screen size of the user.
 
 ## 🧩 State Management Discussion
 

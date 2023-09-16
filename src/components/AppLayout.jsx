@@ -20,11 +20,6 @@ function AppLayout() {
   }, []);
 
   const handleSelectCourse = (course) => {
-    const isExists = selectedCourses.some((c) => c.id === course.id);
-    if (isExists) {
-      return toast.error(`${course.title} already in cart.`);
-    }
-
     const totalCredit = selectedCourses.reduce(
       (acc, course) => acc + course.credit,
       0
@@ -32,6 +27,13 @@ function AppLayout() {
 
     if (totalCredit + course.credit > 20) {
       return toast.error("You don't have enough credit.");
+    }
+
+    const isExists = selectedCourses.some((c) => c.id === course.id);
+    if (isExists) {
+      return toast.error(
+        `You've already added "${course.title}" to your cart!`
+      );
     }
 
     setSelectedCourses((preCourses) => [...preCourses, course]);
